@@ -13,7 +13,13 @@ import PageNotFound from "./pages/PageNotFound";
 import AppLayout from "./ui/AppLayout";
 
 function App() {
-  const queryClient = new QueryClient();
+  const queryClient = new QueryClient({
+    defaultOptions: {
+      queries: {
+        staleTime: 0,
+      },
+    },
+  });
   return (
     <QueryClientProvider client={queryClient}>
       <ReactQueryDevtools initialIsOpen={false} />
