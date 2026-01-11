@@ -1,8 +1,29 @@
-# React + Vite
+# wild-oasis
+Tech Stack
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Routing -> React Router
+Styling -> styled components
+Remote state management -> React Query
+Ui State management -> Context API
+Form management -> React Hook Form
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+# React Router
+The standard for React SPAs
+
+# Styled Components
+Very popular way of writing component-scoped CSS, right inside Javascript. A technology worth learning
+
+
+# React Query
+The best way of managing remote state, with features like caching, automatic re-fetching, pre-fetching, offline support, etc.
+Alteranives are SWR and RTK Query, but this is the most popular.
+
+# Context API
+There is almost no UI state needed in this app, so one simple context with useState will be enough. No need for Redux
+
+# React Hook Form
+Handling bigger forms can be a lot of work, such as manual state creation and error handling. A library can simplify this.
+
+# Other tools
+React icons / React hot toast ? Recharts / date-fns / Supabase
